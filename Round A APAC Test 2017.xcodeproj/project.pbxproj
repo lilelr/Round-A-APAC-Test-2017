@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE1BD24E1D81039300747607 /* note.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = note.md; sourceTree = "<group>"; };
 		DE456F441D7FE02700B2013F /* Round A APAC Test 2017 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Round A APAC Test 2017"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE456F471D7FE02700B2013F /* A.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = A.cpp; sourceTree = "<group>"; };
 		DE456F4E1D7FE08200B2013F /* in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				DE456F4F1D7FE08A00B2013F /* out */,
 				DE456F501D7FF56200B2013F /* B.cpp */,
 				DE456F521D7FFEA700B2013F /* C.cpp */,
+				DE1BD24E1D81039300747607 /* note.md */,
 			);
 			path = "Round A APAC Test 2017";
 			sourceTree = "<group>";
@@ -249,6 +251,7 @@
 				DE456F4D1D7FE02700B2013F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
