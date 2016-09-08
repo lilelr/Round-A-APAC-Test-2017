@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE456F481D7FE02700B2013F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE456F471D7FE02700B2013F /* main.cpp */; };
+		DE456F481D7FE02700B2013F /* A.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE456F471D7FE02700B2013F /* A.cpp */; };
+		DE456F511D7FF56200B2013F /* B.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE456F501D7FF56200B2013F /* B.cpp */; };
+		DE456F531D7FFEA700B2013F /* C.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE456F521D7FFEA700B2013F /* C.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		DE456F441D7FE02700B2013F /* Round A APAC Test 2017 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Round A APAC Test 2017"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE456F471D7FE02700B2013F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DE456F471D7FE02700B2013F /* A.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = A.cpp; sourceTree = "<group>"; };
+		DE456F4E1D7FE08200B2013F /* in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = in; sourceTree = "<group>"; };
+		DE456F4F1D7FE08A00B2013F /* out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out; sourceTree = "<group>"; };
+		DE456F501D7FF56200B2013F /* B.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = B.cpp; sourceTree = "<group>"; };
+		DE456F521D7FFEA700B2013F /* C.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		DE456F461D7FE02700B2013F /* Round A APAC Test 2017 */ = {
 			isa = PBXGroup;
 			children = (
-				DE456F471D7FE02700B2013F /* main.cpp */,
+				DE456F471D7FE02700B2013F /* A.cpp */,
+				DE456F4E1D7FE08200B2013F /* in */,
+				DE456F4F1D7FE08A00B2013F /* out */,
+				DE456F501D7FF56200B2013F /* B.cpp */,
+				DE456F521D7FFEA700B2013F /* C.cpp */,
 			);
 			path = "Round A APAC Test 2017";
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE456F481D7FE02700B2013F /* main.cpp in Sources */,
+				DE456F531D7FFEA700B2013F /* C.cpp in Sources */,
+				DE456F511D7FF56200B2013F /* B.cpp in Sources */,
+				DE456F481D7FE02700B2013F /* A.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
